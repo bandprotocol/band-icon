@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "method": "icx_sendTransaction",
+  "params": {
+    "version": "0x3",
+    "from": "hx7bf03094d05f8d3a8270082586e8aa23450fc672",
+    "value": "0x0",
+    "stepLimit": "0x3000000",
+    "timestamp": "0x59aaeb314a940",
+    "nid": "0x3",
+    "nonce": "0x1",
+    "to": "cxfd9ac75e12ca40b99953f7899ccde6548cbf938a",
+    "dataType": "call",
+    "data": {
+      "method": "add_name",
+      "params": {
+        "name": "momo"
+      }
+    }
+  },
+  "id": 1
+}
